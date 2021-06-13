@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#searchBar::placeholder{
+    color:white;
+    padding-left: 1rem;
+}
+
+body{
+    background-image:url(./img/siteEntry.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+#navbar{
+    background-color: rgba(1,1,1,0.6);
+}
+
+.scrollP::-webkit-scrollbar {
+    display: none;
+}
+
+#movieShowcase{
+    background-color: rgba(1,1,1,0.8);
+}
+
+.poster-1{
+    position: relative;
+    margin:2rem;
+}
+
+#posterInfo{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height: 70%;
+    max-height: 100%;
+    transform: translateX(-2025%);
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.poster-1:hover #posterInfo{
+    transform: translateX(0);
+}
