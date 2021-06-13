@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0-canary.14/tailwind.min.css" integrity="sha512-zXhmHxwXn8kUvZApt3iuxFG7cAHa2wongnyRnq2uAxppI5t/J5pz7I0mrm409qZaAu4KLhRtFTaNhO86OWQv5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 769px)" href="tab.css">
+</head>
+<body class="bg-center mw-4">
+        <nav class="block p-6 border-b-2" id="navbar">
+            <div id="logo" class="">
+                <img src="./img/logo.png" alt="Movie-Map" srcset="" class="h-12  mb-2">
+                <a class="font-extrabold text-white text-3xl" id="logoName" href="#" onclick="window.location.reload(true)">ʍօʋɨɛ-ʍǟք</a>
+            </div>
+            <form action="" id='searchForm'>
+                <input type="text" name="" class="bg-transparent border-b-2 rounded-3xl p-2 outline-none mt-6 text-white" id="searchBar" placeholder="Search...">
+            </form>
+        </nav>
+        <div class="grid md:grid-cols-3" id="movieShowcase">
+        </div>
+    <script src="./movie.js"></script>
+</body>
+</html>

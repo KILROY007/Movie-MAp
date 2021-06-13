@@ -1,0 +1,14 @@
+#navbar{
+    background-color: rgba(1,1,1,0.6);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.poster-1{
+    margin-right: 1rem;
+}
+
+.scrollP::-webkit-scrollbar {
+    display: none;
+}
