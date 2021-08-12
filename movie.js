@@ -3,7 +3,7 @@ const search=document.getElementById('searchBar');
 const main=document.getElementById('movieShowcase');
 const error=document.getElementById('error');
 
-const API_URL='https://yts.mx/api/v2/list_movies.json?page=2'
+const API_URL='https://yts.mx/api/v2/list_movies.json?sort_by=download_count'
 const search_url='https://yts.mx/api/v2/list_movies.json?query_term="'
 
 get_movies(API_URL)
