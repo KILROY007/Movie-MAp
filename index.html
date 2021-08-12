@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
     <link rel="stylesheet" media="screen and (min-width: 769px)" href="tab.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="bg-center mw-4">
         <nav class="block p-6 border-b-2" id="navbar">
@@ -19,8 +20,12 @@
                 <input type="text" name="" class="bg-transparent border-b-2 rounded-3xl p-2 outline-none mt-6 text-white" id="searchBar" placeholder="Search...">
             </form>
         </nav>
-        <div class="grid md:grid-cols-3" id="movieShowcase">
+        <div class="grid md:grid-cols-4" id="movieShowcase">
         </div>
     <script src="./movie.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
